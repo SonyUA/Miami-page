@@ -25,10 +25,11 @@
         width: 95%;
     }
     .section-one {
-        height: 636px;
+        height: 550px;
     }
     .header-logo-box {
-        flex-basis: 0%;
+        flex-basis: 100%;
+        text-align: center;
     }
     .section-two {
         padding: 15px;
