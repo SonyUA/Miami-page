@@ -1,0 +1,63 @@
+@media (min-width:768px) and (max-width: 920px) {
+    .section-two {
+        padding: 100px;
+    }
+    .two-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .header-logo-box {
+        flex-basis: 0%;
+    }
+}
+
+@media (min-width:300px) and (max-width: 767px) {
+    input {
+        width: 270px;
+    }
+    .h5-title {
+        font-size: 40px;
+    }
+    .consultation-content-box {
+        flex-basis: 60%;
+    }
+    .consultation-inner-box {
+        width: 95%;
+    }
+    .section-one {
+        height: 636px;
+    }
+    .header-logo-box {
+        flex-basis: 0%;
+    }
+    .section-two {
+        padding: 15px;
+        flex-wrap: wrap;
+    }
+    .two-title {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .gallery-text,
+    .gallery-link {
+        font-size: 14px;
+    }
+    .gallery-img1,
+    .gallery-img2,
+    .gallery-img3,
+    .gallery-img4,
+    .gallery-img5,
+    .gallery-img6 {
+        width: 80%;
+    }
+    .nav-link {
+        font-size: 8px;
+    }
+    .two-text-box {
+        margin-bottom: 20px;
+    }
+    .header-calltoorder {
+        margin-top: 15px;
+        ;
+    }
+}
