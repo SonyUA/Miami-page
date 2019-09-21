@@ -80,10 +80,21 @@ h5 {
   -o-transition: 0.2s ease-out;
   transition: 0.2s ease-out; }
 
+.nav-link {
+  line-height: 30px;
+  width: 102%;
+  display: block;
+  text-align: center; }
+
 .header-tel:hover,
 .header-calltoorder:hover {
   color: #D5C5AA;
   border-bottom: 1px dashed #fff; }
+
+.nav-link-active {
+  background: #D5C5AA;
+  border-radius: 10px;
+  color: #000; }
 
 .nav-link:hover {
   color: #D5C5AA; }
@@ -92,7 +103,8 @@ h5 {
   margin-top: -85px;
   position: -webkit-sticky;
   position: sticky;
-  top: 0; }
+  top: 0;
+  z-index: 50; }
 
 .navigation {
   display: -webkit-box;
@@ -221,9 +233,9 @@ h5 {
 
 .gallery-img:hover {
   z-index: 20;
-  -webkit-transform: scale(1.3);
-      -ms-transform: scale(1.3);
-          transform: scale(1.3); }
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); }
 
 .gallery-btn {
   display: block;
@@ -271,7 +283,8 @@ h5 {
   text-transform: uppercase; }
 
 .section-consultation {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 80px; }
 
 .consultation-inner-box {
   display: -webkit-box;
@@ -318,7 +331,8 @@ h5 {
           justify-content: center;
   margin: 55px; }
 
-input {
+input,
+textarea {
   outline: none;
   width: 383px;
   height: 54px;
@@ -334,6 +348,10 @@ input {
   -o-transition: 0.3s ease-out;
   transition: 0.3s ease-out; }
 
+textarea {
+  width: 379px;
+  height: 166px; }
+
 input:hover {
   color: #fff;
   background-color: #00AAEF; }
@@ -343,6 +361,9 @@ input:hover {
   color: #000; }
 
 ::-webkit-input-placeholder {
+  color: #000; }
+
+::-webkit-textarea-placeholder {
   color: #000; }
 
 ::-moz-placeholder {
@@ -366,3 +387,116 @@ input:hover {
 .submit-btn:hover {
   color: #000;
   background-color: #fff; }
+
+.section-contact {
+  text-align: center;
+  padding-bottom: 80px; }
+
+.contact-inner-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 77%;
+  margin: 0 auto;
+  text-align: left;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline; }
+
+.contact-text-box {
+  -ms-flex-preferred-size: 49%;
+      flex-basis: 49%;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out; }
+
+.contact-link {
+  display: block;
+  color: #000;
+  font-size: 24px;
+  line-height: 36px;
+  -webkit-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out; }
+
+.contact-link:hover {
+  color: #00AAEF;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); }
+
+.section-testimonials {
+  text-align: center;
+  padding-bottom: 80px;
+  background-color: #EEEEEE; }
+
+.testimonials-card-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 77%;
+  margin: 0 auto;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.testimonials-card {
+  -ms-flex-preferred-size: 22%;
+      flex-basis: 22%;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out; }
+
+.testimonials-card:hover {
+  -webkit-box-shadow: 19px 9px 11px 0px rgba(50, 46, 50, 0.6);
+          box-shadow: 19px 9px 11px 0px rgba(50, 46, 50, 0.6); }
+
+.card-name {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px; }
+
+.card-specialty {
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 24px; }
+
+.card-quotes {
+  font-family: 'GFS Didot', serif;
+  font-size: 92px;
+  line-height: 92px;
+  position: absolute;
+  left: -18px;
+  top: 175px; }
+
+.card-text {
+  font-size: 16px;
+  line-height: 24px; }
+
+.footer {
+  background-image: url(../img/nastol.com.png);
+  background-size: cover;
+  height: 540px;
+  text-align: center; }
+
+.footer-logo {
+  margin-top: 365px;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-out;
+  -o-transition: 0.3s ease-out;
+  transition: 0.3s ease-out; }
+
+.footer-logo:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1); }

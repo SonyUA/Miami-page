@@ -12,6 +12,10 @@
 }
 
 @media (min-width:300px) and (max-width: 767px) {
+    textarea {
+        width: 265px;
+        height: 166px;
+    }
     input {
         width: 270px;
     }
@@ -59,6 +63,12 @@
     }
     .header-calltoorder {
         margin-top: 15px;
-        ;
+    }
+    .testimonials-card {
+        flex-basis: 55%;
+        margin-bottom: 20px;
+    }
+    .card-quotes {
+        left: -40px;
     }
 }

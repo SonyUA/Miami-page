@@ -70,10 +70,25 @@ h5 {
     transition: 0.2s ease-out;
 }
 
+.nav-link {
+    line-height: 30px;
+    width: 102%;
+    display: block;
+    text-align: center;
+}
+
 .header-tel:hover,
 .header-calltoorder:hover {
     color: #D5C5AA;
     border-bottom: 1px dashed #fff;
+}
+
+.nav-list {}
+
+.nav-link-active {
+    background: #D5C5AA;
+    border-radius: 10px;
+    color: #000;
 }
 
 .nav-link:hover {
@@ -84,6 +99,7 @@ h5 {
     margin-top: -85px;
     position: sticky;
     top: 0;
+    z-index: 50;
 }
 
 .navigation {
@@ -208,7 +224,7 @@ h5 {
 
 .gallery-img:hover {
     z-index: 20;
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
 
 .gallery-btn {
@@ -259,6 +275,7 @@ h5 {
 
 .section-consultation {
     text-align: center;
+    padding-bottom: 80px;
 }
 
 .consultation-inner-box {
@@ -297,7 +314,8 @@ h5 {
     margin: 55px;
 }
 
-input {
+input,
+textarea {
     outline: none;
     width: 383px;
     height: 54px;
@@ -312,6 +330,11 @@ input {
     transition: 0.3s ease-out;
 }
 
+textarea {
+    width: 379px;
+    height: 166px;
+}
+
 input:hover {
     color: #fff;
     background-color: #00AAEF;
@@ -323,6 +346,10 @@ input:hover {
 }
 
 ::-webkit-input-placeholder {
+    color: #000;
+}
+
+::-webkit-textarea-placeholder {
     color: #000;
 }
 
@@ -349,4 +376,107 @@ input:hover {
 .submit-btn:hover {
     color: #000;
     background-color: #fff;
+}
+
+.section-contact {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.contact-inner-box {
+    display: flex;
+    width: 77%;
+    margin: 0 auto;
+    text-align: left;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.contact-text-box {
+    flex-basis: 49%;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+.contact-link {
+    display: block;
+    color: #000;
+    font-size: 24px;
+    line-height: 36px;
+    transition: 0.3s ease-out;
+}
+
+.contact-link:hover {
+    color: #00AAEF;
+    transform: scale(1.1);
+}
+
+.section-testimonials {
+    text-align: center;
+    padding-bottom: 80px;
+    background-color: #EEEEEE;
+}
+
+.testimonials-card-box {
+    display: flex;
+    width: 77%;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonials-card {
+    flex-basis: 22%;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+.testimonials-card:hover {
+    box-shadow: 19px 9px 11px 0px rgba(50, 46, 50, 0.6);
+}
+
+.card-name {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.card-specialty {
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.card-quotes {
+    font-family: 'GFS Didot', serif;
+    font-size: 92px;
+    line-height: 92px;
+    position: absolute;
+    left: -18px;
+    top: 175px;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer {
+    background-image: url(../img/nastol.com.png);
+    background-size: cover;
+    height: 540px;
+    text-align: center;
+}
+
+.footer-logo {
+    margin-top: 365px;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+}
+
+.footer-logo:hover {
+    transform: scale(1.1);
 }

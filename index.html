@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/animate.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
+
+    <link href="https://fonts.googleapis.com/css?family=GFS+Didot&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
 </head>
 
 <body>
     <div class="main-wrap">
-        <section class="section-one">
+        <section class="section-one" id="one">
             <header class="header">
                 <div class="header-logo-box">
                     <img src="./img/logo.png" alt="logo" class="logo">
@@ -25,28 +29,28 @@
             </header>
         </section>
         <nav class="nav-box">
-            <ul class="navigation">
+            <ul class="navigation" id="menu">
                 <li class="nav-list">
-                    <a href="" class="nav-link">home</a>
+                    <a href="#one" class="nav-link">home</a>
                 </li>
                 <li class="nav-list">
-                    <a href="" class="nav-link">about as</a>
+                    <a href="#two" class="nav-link">about as</a>
                 </li>
                 <li class="nav-list">
-                    <a href="" class="nav-link">gallery</a>
+                    <a href="#gallery" class="nav-link">gallery</a>
                 </li>
                 <li class="nav-list">
-                    <a href="" class="nav-link">consultation</a>
+                    <a href="#consultation" class="nav-link">consultation</a>
                 </li>
                 <li class="nav-list">
-                    <a href="" class="nav-link">testimonials</a>
+                    <a href="#testimonials" class="nav-link">testimonials</a>
                 </li>
                 <li class="nav-list">
-                    <a href="" class="nav-link">contacts</a>
+                    <a href="#contact" class="nav-link">contacts</a>
                 </li>
             </ul>
         </nav>
-        <section class="section-two">
+        <section class="section-two" id="two">
             <h1 class="two-title">Miami best Real estate<span class="two-title-color">here</span></h1>
             <div class="two-text-box">
                 <p class="two-text"><span class="two-text-bold">Over 50 years experience in love.</span><br> Mazel and VA Tsukkerman in his "Analysis of musical works." Pointillism, which originated in the music of the early twentieth century, microforms, found a distant
@@ -56,7 +60,7 @@
                     specialists. Working directly with developers - so have more useful information about the profitable deals.</p>
                 <p class="two-text-bold">We will never be late!<br> Guaranteed secure transaction - 100%.</p>
         </section>
-        <section class="section-gallery">
+        <section class="section-gallery" id="gallery">
             <div class="h5-title-box">
                 <h5 class="h5-title">Gallery</h5>
                 <div class="h5-line-box">
@@ -66,7 +70,7 @@
                 </div>
             </div>
             <div class="gallery-img-box">
-                <img class="gallery-img gallery-img1" src="./img/gal1.png" alt="">
+                <img class="bounceInRight gallery-img gallery-img1" src="./img/gal1.png" alt="">
                 <img class="gallery-img gallery-img2" src="./img/gal2.png" alt="">
                 <p class="gallery-text"> Marina Palms /
                     <a class="gallery-link" href="">North Miami Beach, FL 33162</a>
@@ -82,9 +86,10 @@
                     <a class="gallery-link" href="">Miami Beach, FL 33140</a>
                 </p>
             </div>
-            <a class="gallery-btn" href="">View all</a>
+            <a class="gallery-btn" href="#">View all</a>
         </section>
-        <section class="section-consultation">
+
+        <section class="section-consultation" id="consultation">
             <div class="h5-title-box">
                 <h5 class="h5-title">Consultation</h5>
                 <div class="h5-line-box">
@@ -107,10 +112,79 @@
                     <input class="submit-btn" type="submit" value="CONSULTATION">
                 </form>
             </div>
+        </section>
+        <section class="section-testimonials" id="testimonials">
+            <div class="h5-title-box">
+                <h5 class="h5-title">Testimonials</h5>
+                <div class="h5-line-box">
+                    <div class="blue-line"></div>
+                    <img class="blue-icon" src="./img/blue-icon.jpg" alt="">
+                    <div class="blue-line"></div>
+                </div>
+            </div>
+            <div class="testimonials-card-box">
+                <div class="testimonials-card">
+                    <img class="card-img" src="./img/card1.png" alt=""><br>
+                    <span class="card-name">Tim Cooc</span><br>
+                    <span class="card-specialty">CEO</span><br>
+                    <span class="card-quotes">“</span>
+                    <p class="card-text">Nice work, Certificates National Association of Realtors (USA).</p>
+
+                </div>
+                <div class="testimonials-card">
+                    <img class="card-img" src="./img/card2.png" alt=""><br>
+                    <span class="card-name">Katherine Adams</span><br>
+                    <span class="card-specialty">Senior Vice President</span><br>
+                    <span class="card-quotes">“</span>
+                    <p class="card-text">My soul is illuminated by an unearthly joy, as these beautiful spring morning, which I enjoy with all my heart. I’m all alone and blissfully happy in the local edge.
+                    </p>
+
+                </div>
+                <div class="testimonials-card">
+                    <img class="card-img" src="./img/card3.png" alt=""><br>
+                    <span class="card-name">Jonathan Ive</span><br>
+                    <span class="card-specialty">Chief Design Officer</span><br>
+                    <span class="card-quotes">“</span>
+                    <p class="card-text">When my lovely valley of steam rises and half-day sun is above an impermeable.
+                    </p>
+
+                </div>
+            </div>
+        </section>
+        <section class="section-contact" id="contact">
+            <div class="h5-title-box">
+                <h5 class="h5-title">Contact us</h5>
+                <div class="h5-line-box">
+                    <div class="blue-line"></div>
+                    <img class="blue-icon" src="./img/blue-icon.jpg" alt="">
+                    <div class="blue-line"></div>
+                </div>
+            </div>
+            <div class="contact-inner-box">
+                <div class="contact-text-box">
+                    <a class="contact-link" href="mailto:Hello@miami">Hello@miami</a>
+                    <a class="contact-link" href="tel:+78 8 800 700">78 8 800 700</a>
+                    <br>
+                    <a class="contact-link" href=""> 400 first ave.</a>
+                    <a class="contact-link" href="">suite 700</a>
+                    <a class="contact-link" href="">Minneapolis, MN 55401</a>
+                </div>
+                <form action="" method="POST" class="consultation-form-box">
+                    <input type="text" name="" id="" placeholder="NAME" required>
+                    <textarea style="text-transform: uppercase; font-size: 14px;font-family: 'Ubuntu', sans-serif;" placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                    <input type="email" name="" id="" placeholder="EMAIL" required>
+                    <input class="submit-btn" type="submit" value="CONSULTATION">
+                </form>
+            </div>
 
         </section>
+        <footer class="footer">
+            <img class="footer-logo" src="./img/logo.png" alt="logo">
+        </footer>
         </div>
+        <script src="./js/main.js"></script>
         <script src="./js/jq.js"></script>
+
 </body>
 
 </html>
